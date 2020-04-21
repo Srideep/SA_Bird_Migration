@@ -25,7 +25,6 @@ There are 11 birds in the dataset, where each bird is identified by a unique val
 ### Ploting the Birds Dataset
 
 <center>
-  
-
+<img src="birds_dataset.png" witdth= "1000"><br/>
 </center>
 
