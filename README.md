@@ -11,7 +11,7 @@ This project involves analysis bird conservation and understing of migration pat
 
 There are several [protected areas](https://www.iucn.org/theme/protected-areas/about) in South America, which operate under special regulations to ensure that species that migrate (or live) there have the best opportunity to thrive. Knowing the location if purple martins tend to visit these areas is a subject of my interest.  To answer this question, I use some recently collected data that tracks the year-round location of eleven different birds.
 
-## Dataset 
+## Birds Dataset 
                   timestamp	              location-long	     location-lat	    tag-local-identifier
                 0	2014-08-15  05:56:00	    -88.146014	     17.513049	            30448
                 1	2014-09-01  05:59:00	    -85.243501	     13.095782	            30448
@@ -21,3 +21,11 @@ There are several [protected areas](https://www.iucn.org/theme/protected-areas/a
 
 
 There are 11 birds in the dataset, where each bird is identified by a unique value in the "tag-local-identifier" column. Each bird has several measurements, collected at different times of the year.
+
+### Ploting the Birds Dataset
+
+<center>
+  
+
+</center>
+
