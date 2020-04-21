@@ -52,3 +52,8 @@ Now, we're ready to look more closely at each bird's path
 | 3 | 30263                | POINT (-50.192297 -5.705042400000001)         |
 | 4 | 30275                | POINT (-57.7040429 -16.7233589)               |
 
+### Ploting the Birds Migration Path
+
+<center>
+<img src="birds_path.png" witdth= "1000"><br/>
+</center>
