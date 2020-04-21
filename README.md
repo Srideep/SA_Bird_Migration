@@ -57,3 +57,28 @@ Now, we're ready to look more closely at each bird's path
 <center>
 <img src="birds_path.png" witdth= "1000"><br/>
 </center>
+
+## Where are the protected areas in South America?
+It looks like all of the birds end up somewhere in South America. But are they going to protected areas?
+
+<center>
+<img src="South_America_Country_Boundries.png" witdth= "1000"><br/>
+</center>
+
+|    | pop_est   | continent     | name         | iso_a3 | gdp_md_est | geometry                                          |
+|----|-----------|---------------|--------------|--------|------------|---------------------------------------------------|
+| 9  | 44293293  | South America | Argentina    | ARG    | 879400.0   | (POLYGON ((-68.63401022758323 -52.636370458874... |
+| 10 | 17789267  | South America | Chile        | CHL    | 436100.0   | (POLYGON ((-68.63401022758323 -52.636370458874... |
+| 20 | 2931      | South America | Falkland Is. | FLK    | 281.8      | POLYGON ((-61.2 -51.85, -60 -51.25, -59.15 -51... |
+| 28 | 3360148   | South America | Uruguay      | URY    | 73250.0    | POLYGON ((-57.62513342958296 -30.2162948544542... |
+| 29 | 207353391 | South America | Brazil       | BRA    | 3081000.0  | POLYGON ((-53.37366166849824 -33.7683777809007... |
+
+### What percentage of South America is protected?
+South America has 5396761.9116883585 square kilometers of protected areas.
+Approximately 30.39% of South America is protected.
+
+### Where are the birds in South America?
+The following map shows the visualization of the birds migration in the South Ameircan Protected Areas
+<center>
+<img src="South_America_Protected_Areas.png" witdth= "1000"><br/>
+</center>
