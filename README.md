@@ -28,3 +28,26 @@ There are 11 birds in the dataset, where each bird is identified by a unique val
 <img src="birds_dataset.png" witdth= "1000"><br/>
 </center>
 
+## Where does each bird start and end its journey?
+Now, we're ready to look more closely at each bird's path
+
+### Starting point for each bird
+
+|   | tag-local-identifier | geometry                                     |
+|---|----------------------|----------------------------------------------|
+| 0 | 30048                | POINT (-90.1299245 20.7324163)               |
+| 1 | 30054                | POINT (-93.60860759999998 46.50563020000001) |
+| 2 | 30198                | POINT (-80.3103606 25.9254455)               |
+| 3 | 30263                | POINT (-76.78146219999998 42.992085)         |
+| 4 | 30275                | POINT (-76.78213459999998 42.9920688)        |
+
+### End point for each bird
+
+|   | tag-local-identifier | geometry                                      |
+|---|----------------------|-----------------------------------------------|
+| 0 | 30048                | POINT (-47.5363204 -4.4375763)                |
+| 1 | 30054                | POINT (-62.47913810000001 -5.038396400000001) |
+| 2 | 30198                | POINT (-57.4641684 -2.7761655)                |
+| 3 | 30263                | POINT (-50.192297 -5.705042400000001)         |
+| 4 | 30275                | POINT (-57.7040429 -16.7233589)               |
+
