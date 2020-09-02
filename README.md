@@ -12,7 +12,7 @@ This project involves analysis bird conservation and understing of migration pat
 There are several [protected areas](https://www.iucn.org/theme/protected-areas/about) in South America, which operate under special regulations to ensure that species that migrate (or live) there have the best opportunity to thrive. Knowing the location if purple martins tend to visit these areas is a subject of my interest.  To answer this question, I use some recently collected data that tracks the year-round location of eleven different birds.
 
 ## Birds Dataset 
-|   | timestamp            | location-long | location-lat | tag-local-identifier |
+|   | Timestamp            | Location-Longitude | Location-Latitude | tag-local-identifier |
 |---|----------------------|---------------|--------------|----------------------|
 | 0 | 2014-08-15  05:56:00 | -88.146014    | 17.513049    | 30448                |
 | 1 | 2014-09-01  05:59:00 | -85.243501    | 13.095782    | 30448                |
@@ -34,7 +34,7 @@ Now, we're ready to look more closely at each bird's path
 
 ### Starting point for each bird
 
-|   | tag-local-identifier | geometry                                     |
+|   | tag-local-identifier | Geometry(Latitude, Longitude)                |
 |---|----------------------|----------------------------------------------|
 | 0 | 30048                | POINT (-90.1299245 20.7324163)               |
 | 1 | 30054                | POINT (-93.60860759999998 46.50563020000001) |
@@ -44,7 +44,7 @@ Now, we're ready to look more closely at each bird's path
 
 ### End point for each bird
 
-|   | tag-local-identifier | geometry                                      |
+|   | tag-local-identifier | Geometry(Latitude, Longitude)                 |
 |---|----------------------|-----------------------------------------------|
 | 0 | 30048                | POINT (-47.5363204 -4.4375763)                |
 | 1 | 30054                | POINT (-62.47913810000001 -5.038396400000001) |
@@ -65,7 +65,7 @@ It looks like all of the birds end up somewhere in South America. But are they g
 <img src="South_America_Country_Boundries.png" witdth= "1000"><br/>
 </center>
 
-|    | pop_est   | continent     | name         | iso_a3 | gdp_md_est | geometry                                          |
+|    | Population Estimation  | Continent     | Name      | ISO A3    | GDP Estimation | Geometry(Latitude, Longitude)    |
 |----|-----------|---------------|--------------|--------|------------|---------------------------------------------------|
 | 9  | 44293293  | South America | Argentina    | ARG    | 879400.0   | (POLYGON ((-68.63401022758323 -52.636370458874... |
 | 10 | 17789267  | South America | Chile        | CHL    | 436100.0   | (POLYGON ((-68.63401022758323 -52.636370458874... |
