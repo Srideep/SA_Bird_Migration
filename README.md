@@ -1,4 +1,4 @@
-# South America Bird_Migration
+# South America Bird Migration
 Geospatial analysis on purple martins migration patterns in South America
 
 #  Introduction
